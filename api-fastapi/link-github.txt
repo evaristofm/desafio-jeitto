@@ -1,0 +1,3 @@
+Segue o link para o api solicitada, optei por criar um repositorio separado desse.
+
+https://github.com/evaristofm/api-cliente-jeitto
