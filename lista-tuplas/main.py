@@ -24,11 +24,14 @@
 
 lista_frutas = ['banana', 'abacaxi', 'kiwi']
 lista_frutas.append('Maça')  # Adiciona um item na lista
+print(lista_frutas)
 lista_frutas.remove('abacaxi')  # Remove um item da lista
+print(lista_frutas)
 lista_frutas[0] = 'Caja'  # Modifica um determinado item na lista
 print(lista_frutas)
 
 
 tupla = (1, 2, 3, 4, 2, 2, 5)
-tupla.index(4)  # é usado para encontrar o indice da primeira ocorrencia de um elemento na tupla.
-tupla.count(2)  # é usado para contar quantas vezes um elemento específico aparece na tupla.
+print(tupla.index(4))  # é usado para encontrar o indice da primeira ocorrencia de um elemento na tupla.
+print(tupla.count(2))  # é usado para contar quantas vezes um elemento específico aparece na tupla.
+print(tupla)
